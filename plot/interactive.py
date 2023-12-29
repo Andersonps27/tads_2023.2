@@ -12,8 +12,8 @@ def plot_line_i(ticker:str):
     """
 
     data = download_data(ticker)
-<<<<
-    feat/included_sma_lma
+
+
     data['SMA'] = data['Close'].rolling(window = 9).mean()
     data['LMA'] = data['Close'].rolling(window = 72).mean()
 
